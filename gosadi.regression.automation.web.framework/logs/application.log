@@ -1,0 +1,45 @@
+10:32:15.033 [main] INFO  logger.LOG -  Starting Test Suite Onboarding Test
+10:32:21.164 [main] INFO  logger.LOG - Launching browser
+10:32:44.791 [main] INFO  logger.LOG - Running URl :: https://qa-gosadi-frontend.vercel.app/
+10:32:50.998 [main] INFO  logger.LOG - testToVerifyURL Test is Starting.
+10:32:51.208 [main] INFO  logger.LOG - Title of the Page is : gosadi - web
+10:32:51.220 [main] INFO  logger.LOG - URL of the application verified 
+10:32:51.224 [main] INFO  logger.LOG - testToVerifyURL Test is Succeed.
+10:32:51.893 [main] INFO  logger.LOG - Quit Driver
+10:32:55.618 [main] INFO  logger.LOG - Launching browser
+10:33:00.384 [main] INFO  logger.LOG - Running URl :: https://qa-gosadi-frontend.vercel.app/
+10:33:05.399 [main] INFO  logger.LOG - testToVerifyAllTextLabelsAndTF Test is Starting.
+10:33:05.554 [main] INFO  logger.LOG - H1 label is Verified : Log in to gosadi
+10:33:05.604 [main] INFO  logger.LOG - Email text filed is display
+10:33:05.652 [main] INFO  logger.LOG - Password text filed is display
+10:33:05.703 [main] INFO  logger.LOG - Login Button is display 
+10:33:05.773 [main] INFO  logger.LOG - Create your account Button is display 
+10:33:05.774 [main] INFO  logger.LOG - testToVerifyAllTextLabelsAndTF Test is Succeed.
+10:33:05.973 [main] INFO  logger.LOG - Quit Driver
+10:33:08.013 [main] INFO  logger.LOG - Launching browser
+10:33:10.220 [main] INFO  logger.LOG - Running URl :: https://qa-gosadi-frontend.vercel.app/
+10:33:10.232 [main] INFO  logger.LOG - testToVerifySellerLogin Test is Starting.
+10:33:11.011 [main] INFO  logger.LOG - Entered Email address : test.pu@yopmail.com
+10:33:11.332 [main] INFO  logger.LOG - Entered Password 
+10:33:11.830 [main] INFO  logger.LOG - Click on Login button
+10:34:11.990 [main] INFO  logger.LOG - Testcase 'testToVerifySellerLogin' failed, because of org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'You have logged-in')]' (tried for 5 second(s) with 500 milliseconds interval)
+10:34:12.739 [main] INFO  logger.LOG - Quit Driver
+10:34:16.291 [main] INFO  logger.LOG - Launching browser
+10:34:19.943 [main] INFO  logger.LOG - Running URl :: https://qa-gosadi-frontend.vercel.app/
+10:34:24.957 [main] INFO  logger.LOG - testToVerifyInvalidSellerLogin Test is Starting.
+10:34:25.830 [main] INFO  logger.LOG - Entered Email address : test.pu@yopmail.com
+10:34:26.145 [main] INFO  logger.LOG - Entered Password : ashd
+10:34:26.555 [main] INFO  logger.LOG - Click on Login button
+10:34:28.123 [main] INFO  logger.LOG - Invalid credentials message display
+10:34:28.123 [main] INFO  logger.LOG - testToVerifyInvalidSellerLogin Test is Succeed.
+10:34:28.251 [main] INFO  logger.LOG - Quit Driver
+10:34:31.154 [main] INFO  logger.LOG - Launching browser
+10:34:34.718 [main] INFO  logger.LOG - Running URl :: https://qa-gosadi-frontend.vercel.app/
+10:34:39.731 [main] INFO  logger.LOG - testToVerifyInvalidEmail Test is Starting.
+10:34:40.336 [main] INFO  logger.LOG - Entered Email address : QATest@gmail.com
+10:34:40.562 [main] INFO  logger.LOG - Entered Password 
+10:34:40.856 [main] INFO  logger.LOG - Click on Login button
+10:34:47.118 [main] INFO  logger.LOG - Invalid credentials message display
+10:34:47.119 [main] INFO  logger.LOG - testToVerifyInvalidEmail Test is Succeed.
+10:34:47.264 [main] INFO  logger.LOG - Quit Driver
+10:34:47.266 [main] INFO  logger.LOG -  Finished Test Suite 'Onboarding Test
